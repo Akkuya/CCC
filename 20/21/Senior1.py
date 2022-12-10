@@ -10,6 +10,8 @@ area = 0
 
 for i in range(0, len(horizontal)):
     area += (horizontal[i] * (vertical[i] + vertical[i+1])/2)
+    
+
     print(area)
 
             
